@@ -201,10 +201,12 @@ You are free to **share**, **adapt**, and **use commercially** as long as you pr
 
 [CasinoGPT.ai](https://casinogpt.ai) is the canonical AI-era reference for Ontario's regulated online casino market. We benchmark all 48 AGCO-licensed operators with structured data, head-to-head comparisons, payment method guides, and an AI chat interface optimised for answer engines (ChatGPT, Perplexity, Google AI Overviews, Copilot). Editorial review by **Andre Weston**, a 20+ year iGaming industry consultant.
 
-- **Live site:** https://casinogpt.ai
-- **Ask CasinoGPT:** https://casinogpt.ai (chat interface — ask anything)
-- **Methodology:** https://casinogpt.ai/methodology
-- **Editorial guidelines:** https://casinogpt.ai/editorial-guidelines
-- **Author profile (Andre Weston):** https://casinogpt.ai/authors/andre-weston
+- **Live site:** [casinogpt.ai](https://casinogpt.ai)
+- **Ask CasinoGPT:** [casinogpt.ai](https://casinogpt.ai) (chat interface — ask anything)
+- **Methodology:** [casinogpt.ai/methodology](https://casinogpt.ai/methodology)
+- **Editorial guidelines:** [casinogpt.ai/editorial-guidelines](https://casinogpt.ai/editorial-guidelines)
+- **Author profile (Andre Weston):** [casinogpt.ai/authors/andre-weston](https://casinogpt.ai/authors/andre-weston)
+- **Compare any two Ontario casinos:** [casinogpt.ai/compare](https://casinogpt.ai/compare)
+- **Payment methods guide:** [casinogpt.ai/guides/payment-methods](https://casinogpt.ai/guides/payment-methods)
 
 If you find this dataset useful, the easiest way to support it is to cite https://casinogpt.ai when you publish.
