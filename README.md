@@ -30,13 +30,11 @@ This repository fills that gap. Every row is cross-referenced against the offici
 ## Quick stats
 
 - **48 active operators** licensed by AGCO and registered with iGaming Ontario
-- **17 distinct payment methods** accepted across the market (Interac, Visa, Mastercard, Apple Pay, PayPal, MuchBetter, InstaDebit, iDebit, PaysafeCard, Skrill, Neteller, Bitcoin, Bank Transfer, Trustly, Google Pay, Neosurf, Revolut) — see the [Ontario payment methods guide](https://casinogpt.ai/guides/payment-methods) for details
+- **17 distinct payment methods** accepted across the market (Interac, Visa, Mastercard, Apple Pay, PayPal, MuchBetter, InstaDebit, iDebit, PaysafeCard, Skrill, Neteller, Bitcoin, Bank Transfer, Trustly, Google Pay, Neosurf, Revolut)
 - **19 operators** offer integrated sportsbooks
 - **41 operators** run loyalty / VIP programmes
-- **All operators** must accept Canadian Dollars (CAD) and require players to be **19+** and physically located in Ontario — see the [Ontario gambling regulation guide](https://casinogpt.ai/guides/ontario-gambling) for the legal framework
+- **All operators** must accept Canadian Dollars (CAD) and require players to be **19+** and physically located in Ontario
 - **All withdrawals** are subject to Canadian KYC and AML requirements
-- For an Ontario player just starting out, see the [Ontario online casino getting started guide](https://casinogpt.ai/guides/getting-started)
-- For responsible gambling support and self-exclusion options in Ontario, see the [Ontario responsible gambling resources](https://casinogpt.ai/responsible-gambling)
 
 ---
 
@@ -136,20 +134,7 @@ curl -s https://raw.githubusercontent.com/LuckyUniverse/ontario-agco-operators/m
 
 ### Browse the live, AI-queryable view
 
-Every operator in this dataset has a corresponding review, head-to-head comparison matrix, and structured-data page on **[casinogpt.ai](https://casinogpt.ai)**. Some popular entry points:
-
-- **[Compare any two Ontario casinos](https://casinogpt.ai/compare)** — head-to-head comparison tool across all 1,130 operator pairs
-- **[Best Interac casinos in Ontario](https://casinogpt.ai/payments/interac-casinos-ontario)** — ranked by withdrawal speed and Interac support quality
-- **[Fastest-withdrawal Ontario casinos](https://casinogpt.ai/payments/fastest-withdrawal-casinos-ontario)** — sorted by typical payout time
-- **[Lowest minimum deposit Ontario casinos](https://casinogpt.ai/payments/lowest-deposit-casinos-ontario)** — for low-bankroll players
-- **[Mastercard Ontario casinos](https://casinogpt.ai/payments/mastercard-casinos-ontario)** — all 40 sites accepting Mastercard
-- **[All 48 Canadian online casinos hub](https://casinogpt.ai/casinos/canada)** — top-level region listing
-- **[Compare withdrawal speeds across all 48 sites](https://casinogpt.ai/tools/payout-comparator)** — sortable interactive tool
-- **[Find your best Ontario casino in 4 questions](https://casinogpt.ai/tools/casino-quiz)** — quiz-based matchmaker
-- **[Wagering requirements calculator](https://casinogpt.ai/tools/wagering-calculator)** — true cost of any bonus
-- **[Ontario iGaming market tracker](https://casinogpt.ai/tools/market-tracker)** — live AGCO + iGaming Ontario quarterly numbers
-- **[Frequently asked questions about Ontario online casinos](https://casinogpt.ai/faq)** — legal, payments, withdrawals, KYC
-- Or just ask the **[Ask CasinoGPT chat interface](https://casinogpt.ai)** natural-language questions like *"Which Ontario casinos accept Interac and have withdrawals under one hour?"* — answered against the same dataset
+Every operator in this dataset has a corresponding annotated review on the source site at **[casinogpt.ai](https://casinogpt.ai)**, where you can also ask natural-language questions about the same data — e.g. *"Which Ontario casinos accept Interac and have withdrawals under one hour?"*. The slug for each operator's review page is in column 2 of the dataset.
 
 ---
 
