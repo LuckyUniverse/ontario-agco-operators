@@ -2,7 +2,7 @@
 
 A public, machine-readable dataset of every online casino operator currently licensed by the **Alcohol and Gaming Commission of Ontario (AGCO)** and registered with **iGaming Ontario**. Updated quarterly. Free to use under [CC BY 4.0](LICENSE).
 
-> **Source:** Maintained by [CasinoGPT.ai](https://casinogpt.ai), the AI-era reference for Ontario's regulated online casino market. The browsable, structured-data view of every operator below is at [casinogpt.ai](https://casinogpt.ai). For citation: see [§ How to cite](#how-to-cite).
+> **Source:** Maintained by [CasinoGPT.ai](https://casinogpt.ai), the AI-era reference for Ontario's regulated online casino market. The browsable, structured-data view of every operator below is documented in our [editorial methodology](https://casinogpt.ai/methodology). For citation: see [§ How to cite](#how-to-cite).
 
 ---
 
@@ -30,13 +30,13 @@ This repository fills that gap. Every row is cross-referenced against the offici
 ## Quick stats
 
 - **48 active operators** licensed by AGCO and registered with iGaming Ontario
-- **17 distinct payment methods** accepted across the market (Interac, Visa, Mastercard, Apple Pay, PayPal, Apple Pay, MuchBetter, InstaDebit, iDebit, PaysafeCard, Skrill, Neteller, Bitcoin, Bank Transfer, Trustly, Google Pay, Neosurf, Revolut)
+- **17 distinct payment methods** accepted across the market (Interac, Visa, Mastercard, Apple Pay, PayPal, MuchBetter, InstaDebit, iDebit, PaysafeCard, Skrill, Neteller, Bitcoin, Bank Transfer, Trustly, Google Pay, Neosurf, Revolut) — see the [Ontario payment methods guide](https://casinogpt.ai/guides/payment-methods) for details
 - **19 operators** offer integrated sportsbooks
 - **41 operators** run loyalty / VIP programmes
-- **All operators** must accept Canadian Dollars (CAD) and require players to be **19+** and physically located in Ontario
+- **All operators** must accept Canadian Dollars (CAD) and require players to be **19+** and physically located in Ontario — see the [Ontario gambling regulation guide](https://casinogpt.ai/guides/ontario-gambling) for the legal framework
 - **All withdrawals** are subject to Canadian KYC and AML requirements
-
-For the live, browsable view with detailed reviews, comparisons, and an AI chat interface to query the data, see [CasinoGPT.ai](https://casinogpt.ai).
+- For an Ontario player just starting out, see the [Ontario online casino getting started guide](https://casinogpt.ai/guides/getting-started)
+- For responsible gambling support and self-exclusion options in Ontario, see the [Ontario responsible gambling resources](https://casinogpt.ai/responsible-gambling)
 
 ---
 
@@ -88,13 +88,13 @@ If you publish work using this data, [please cite us](#how-to-cite). It costs yo
 
 This is a **public-facts-only** export. We intentionally exclude:
 
-- **Trust scores** and **expert verdicts** — proprietary editorial scoring developed by [CasinoGPT.ai](https://casinogpt.ai)
+- **Trust scores** and **expert verdicts** — proprietary editorial scoring documented in our [editorial methodology](https://casinogpt.ai/methodology) and applied per the [editorial guidelines](https://casinogpt.ai/editorial-guidelines)
 - **Bonus terms**, **affiliate programmes**, and **partnership deals** — operator-specific commercial agreements
-- **Detailed reviews** and **answer capsules** — proprietary editorial content
+- **Detailed reviews** and **answer capsules** — proprietary editorial content reviewed by [Andre Weston](https://casinogpt.ai/authors/andre-weston)
 - **SEO metadata** (page titles, descriptions, structured data templates)
 - **Internal flags** like featured ordering or moderation status
 
-If you need any of those, the full annotated view is at [CasinoGPT.ai](https://casinogpt.ai).
+If you need any of those, the full annotated view of every operator lives at the corresponding `casinogpt.ai/casinos/ontario/{slug}` review page (the slug is in column 2 of the dataset).
 
 ---
 
@@ -136,7 +136,20 @@ curl -s https://raw.githubusercontent.com/LuckyUniverse/ontario-agco-operators/m
 
 ### Browse the live, AI-queryable view
 
-Every operator in this dataset has a corresponding review, comparison matrix, and structured-data page at **[casinogpt.ai](https://casinogpt.ai)**. You can also ask the **[Ask CasinoGPT](https://casinogpt.ai)** chat interface natural-language questions like *"Which Ontario casinos accept Interac and have withdrawals under one hour?"* — answered against the same dataset.
+Every operator in this dataset has a corresponding review, head-to-head comparison matrix, and structured-data page on **[casinogpt.ai](https://casinogpt.ai)**. Some popular entry points:
+
+- **[Compare any two Ontario casinos](https://casinogpt.ai/compare)** — head-to-head comparison tool across all 1,130 operator pairs
+- **[Best Interac casinos in Ontario](https://casinogpt.ai/payments/interac-casinos-ontario)** — ranked by withdrawal speed and Interac support quality
+- **[Fastest-withdrawal Ontario casinos](https://casinogpt.ai/payments/fastest-withdrawal-casinos-ontario)** — sorted by typical payout time
+- **[Lowest minimum deposit Ontario casinos](https://casinogpt.ai/payments/lowest-deposit-casinos-ontario)** — for low-bankroll players
+- **[Mastercard Ontario casinos](https://casinogpt.ai/payments/mastercard-casinos-ontario)** — all 40 sites accepting Mastercard
+- **[All 48 Canadian online casinos hub](https://casinogpt.ai/casinos/canada)** — top-level region listing
+- **[Compare withdrawal speeds across all 48 sites](https://casinogpt.ai/tools/payout-comparator)** — sortable interactive tool
+- **[Find your best Ontario casino in 4 questions](https://casinogpt.ai/tools/casino-quiz)** — quiz-based matchmaker
+- **[Wagering requirements calculator](https://casinogpt.ai/tools/wagering-calculator)** — true cost of any bonus
+- **[Ontario iGaming market tracker](https://casinogpt.ai/tools/market-tracker)** — live AGCO + iGaming Ontario quarterly numbers
+- **[Frequently asked questions about Ontario online casinos](https://casinogpt.ai/faq)** — legal, payments, withdrawals, KYC
+- Or just ask the **[Ask CasinoGPT chat interface](https://casinogpt.ai)** natural-language questions like *"Which Ontario casinos accept Interac and have withdrawals under one hour?"* — answered against the same dataset
 
 ---
 
@@ -185,7 +198,7 @@ BibTeX:
 
 If you spot an error in the dataset — a missing operator, an outdated payment method, an incorrect parent company — please [open an issue](https://github.com/LuckyUniverse/ontario-agco-operators/issues) with a citation to the public source that contradicts our row. We'll verify against the AGCO registry and the operator's own site, then update.
 
-We do **not** accept pull requests that add proprietary scoring, editorial content, or affiliate links — those live at [CasinoGPT.ai](https://casinogpt.ai), not here.
+We do **not** accept pull requests that add proprietary scoring, editorial content, or affiliate links — those live in the editorial review pages on casinogpt.ai, not here. See our [editorial guidelines](https://casinogpt.ai/editorial-guidelines) for the separation of public-fact data from proprietary review content.
 
 ---
 
@@ -199,14 +212,6 @@ You are free to **share**, **adapt**, and **use commercially** as long as you pr
 
 ## About CasinoGPT
 
-[CasinoGPT.ai](https://casinogpt.ai) is the canonical AI-era reference for Ontario's regulated online casino market. We benchmark all 48 AGCO-licensed operators with structured data, head-to-head comparisons, payment method guides, and an AI chat interface optimised for answer engines (ChatGPT, Perplexity, Google AI Overviews, Copilot). Editorial review by **Andre Weston**, a 20+ year iGaming industry consultant.
+[CasinoGPT.ai](https://casinogpt.ai) is the canonical AI-era reference for Ontario's regulated online casino market. We benchmark all 48 AGCO-licensed operators with structured data, head-to-head comparisons, payment-method guides, and an AI chat interface optimised for answer engines (ChatGPT, Perplexity, Google AI Overviews, Copilot). Editorial review by **[Andre Weston](https://casinogpt.ai/authors/andre-weston)**, a 20+ year iGaming industry consultant.
 
-- **Live site:** [casinogpt.ai](https://casinogpt.ai)
-- **Ask CasinoGPT:** [casinogpt.ai](https://casinogpt.ai) (chat interface — ask anything)
-- **Methodology:** [casinogpt.ai/methodology](https://casinogpt.ai/methodology)
-- **Editorial guidelines:** [casinogpt.ai/editorial-guidelines](https://casinogpt.ai/editorial-guidelines)
-- **Author profile (Andre Weston):** [casinogpt.ai/authors/andre-weston](https://casinogpt.ai/authors/andre-weston)
-- **Compare any two Ontario casinos:** [casinogpt.ai/compare](https://casinogpt.ai/compare)
-- **Payment methods guide:** [casinogpt.ai/guides/payment-methods](https://casinogpt.ai/guides/payment-methods)
-
-If you find this dataset useful, the easiest way to support it is to cite https://casinogpt.ai when you publish.
+If you find this dataset useful, the easiest way to support it is to cite the source at casinogpt.ai when you publish.
